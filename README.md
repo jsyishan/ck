@@ -18,3 +18,6 @@
     * 分别编译`encryption.c` `decryption.c` `fileHandler.c` `testClient.c` `stack.c`文件
     * 同时链接`encrpytion.obj` `decryption.obj` `fileHandler.obj` `testClient.obj` `stack.obj`文件
 * 若上述步骤失败请安装`gcc`或其他支持`gcc`的IDE:(
+
+### Encoding
+UTF-8

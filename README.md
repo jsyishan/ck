@@ -12,9 +12,9 @@
 * `./testClient`
 
 ##### others
-* 所有文件复制至同一目录下
-* 尝试直接编译`testClient.c`文件
+* 在IDE中创建新工程/项目，把*.c和*.h文件添加至同一工程/项目中
+* 尝试直接编译运行`testClient.c`文件
 * 若失败请按以下步骤：
     * 分别编译`encryption.c` `decryption.c` `fileHandler.c` `testClient.c` `stack.c`文件
-    * 同时链接`encrpytion.o` `decryption.o` `fileHandler.o` `testClient.o` `stack.o`文件
-* 若上述步骤失败请安装`gcc`:(
+    * 同时链接`encrpytion.obj` `decryption.obj` `fileHandler.obj` `testClient.obj` `stack.obj`文件
+* 若上述步骤失败请安装`gcc`或其他支持`gcc`的IDE:(
